@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bah Ramadane - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">BAH MAMADOU RAMADANE</div>
+            <ul>
+                <li><a href="#propos">À Propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="propos">
+            <div class="intro-container">
+                <div class="text-content">
+                    <h1>Je suis Mamadou Ramadane, Développeur en devenir passionné par le web et le design! </h1>
+                    <p>Je m'appelle Bah , passionné par la création de sites web modernes et interactifs.</p>
+                    <p>Je suis actuellement étudiant(e) en développement web , et je cherche à améliorer mes compétences en JavaScript, HTML et CSS. J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies. </p>
+                    <a href="#" class="btn primary">Voir mes projets </a><br> 
+                    <a href="#" class="btn secondary">Télécharger mon CV </a>
+                </div>
+                <div class="profile-image">
+                    <img src="image/ramadan.jpg" alt="Mon profil ">
+                                     </div>
+            </div>
+        </section>
+
+        <section id="competences">
+            <h2>Mes Compétences </h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Hard Skills </h3>
+                    <ul>
+                       <li><i class="fab fa-html5"></i> HTML </li>
+                        <li><i class="fab fa-css3-alt"></i> CSS </li>
+                        <li><i class="fab fa-js-square"></i> JavaScript </li>
+                        <li><i class="fas fa-code"></i> VS Code </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills </h3>
+                    <ul>
+                        <li><i class="fas fa-tasks"></i> Gestion de projet </li>
+                        <li><i class="fas fa-cogs"></i> Résolution de problème </li>
+                        <li><i class="fas fa-handshake"></i> Adaptabilité </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets">
+            <h2>Mes Projets </h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Un mini-jeu interactif en JavaScript </h3>
+                    <p>qui utilise des événements DOM. </p>
+                    <div class="tags">
+                        <span>#html</span>
+                        <span>#css</span>
+                        <span>#js</span>
+                    </div>
+                    <a href="#" class="btn">Voir </a>
+                </div>
+                <div class="project-card">
+                    <h3>Un mini-jeu interactif en JavaScript </h3>
+                    <p>qui utilise des événements DOM. </p>
+                    <div class="tags">
+                        <span>#html</span>
+                        <span>#css</span>
+                        <span>#js</span>
+                    </div>
+                    <a href="#" class="btn">Voir </a>
+                </div>
+                <div class="project-card">
+                    <h3>Un mini-jeu interactif en JavaScript </h3>
+                    <p>qui utilise des événements DOM. </p>
+                    <div class="tags">
+                        <span>#html</span>
+                        <span>#css</span>
+                        <span>#js</span>
+                    </div>
+                    <a href="#" class="btn">Voir </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Vous avez un projet en tête ?  N'hésitez pas à me contacter </h2>
+            <form id="contact-form">
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="prenom">Entrez votre prénom </label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="nom">Entrez votre nom </label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                </div>
+                <div class="input-group full-width">
+                    <label for="sujet">Entrez votre sujet </label>
+                    <input type="text" id="sujet" name="sujet" required>
+                </div>
+                <div class="input-group full-width">
+                    <label for="message">Saisissez votre message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+               <button type="submit" class="btn primary">Envoyer </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed by Bah Mamadou Ramadane with HTML CSS JS </p>
+        <p>Tous droits réservés-2025 </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
